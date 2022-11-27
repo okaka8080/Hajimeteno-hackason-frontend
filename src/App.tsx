@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import React, {useState } from 'react'
 import './App.css';
+import Calendar from './pages/calendar';
+import { Box, TextField, TextFieldProps } from '@mui/material'
+//import Tegaki from "./pages/tegakika";
 
 function App() {
+
+  //const [memos, setMemos] = useState([]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="flex_test-box">
+        <div className="flex_test-item">
+          <Calendar />
+        </div>
+        <div className="flex_test-item">
+            waaaaa
+        </div>
+      </div>
     </div>
   );
 }

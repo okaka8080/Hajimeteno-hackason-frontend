@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.flex_test-box {
+    background-color: #eee;     /* 背景色指定 */
+    padding:  10px;   /* 余白指定 */
+    justify-content: space-between;
+    display:flex;
+}
+ 
+.flex_test-item {
+    padding: 10px;
+    color:  #000;               /* 文字色 */
+    margin:  10px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+}
