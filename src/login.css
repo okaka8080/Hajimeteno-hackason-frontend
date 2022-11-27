@@ -1,0 +1,53 @@
+.Login{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.Title{
+    text-align: center;
+    text-shadow: 10px;
+    font-size: 50px;
+    color: coral;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+
+button {
+    margin-top: 14px;
+    margin-right: 80px;
+    margin-left: 50px;
+    padding: 7px 40px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px #626262;
+    cursor: pointer;
+    background-color: #cf9b48;
+    color: white;
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+
+  .bg_pattern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffe9a7;
+    opacity: 0.4;
+    z-index: -1;
+  }
+  .Lines_v3 {
+    background-size: 40px 40px;
+    background-image:  repeating-linear-gradient(0deg, #ffc107, #ffc107 2px, #ffe9a7 2px, #ffe9a7);
+  }
