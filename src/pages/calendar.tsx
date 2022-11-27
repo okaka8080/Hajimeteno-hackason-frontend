@@ -31,7 +31,7 @@ export default function Calendar() {
           rightArrowButtonText="次月を表示"
           toolbarTitle="日付選択"
           toolbarFormat="yyyy年MM月dd日"
-         renderInput={(params: JSX.IntrinsicAttributes & TextFieldProps) => <TextField {...params} />}
+         renderInput={(params: JSX.IntrinsicAttributes & TextFieldProps) => <TextField sx={{ backgroundColor: 'white' }} fullWidth {...params} />}
        />
       
    </LocalizationProvider>

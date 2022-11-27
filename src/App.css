@@ -1,47 +1,41 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  /*background: color #ff4;*/
+  background-image: url("./cloth_00145.jpg");
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.css-hlj6pa-MuiDialogActions-root {
+  display: none !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.css-z3au5x-MuiButtonBase-root-MuiIconButton-root-MuiPickersToolbar-penIconButton{
+  display: none !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.css-1eurbeq-MuiPickersToolbar-root-MuiDatePickerToolbar-root{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.css-3jvy96-MuiTypography-root-MuiDatePickerToolbar-title {
+  font-size: 1.5rem;
+  font-family: cursive;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root {
+  font-family: cursive;
 }
 
 .flex_test-box {
-    background-color: #eee;     /* 背景色指定 */
+    /*background-color: #eee;     /* 背景色指定 */
     padding:  10px;   /* 余白指定 */
     justify-content: space-between;
     display:flex;
+}
+
+.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected{
+  background-color: #eea;
 }
  
 .flex_test-item {
@@ -49,4 +43,12 @@
     color:  #000;               /* 文字色 */
     margin:  10px;              /* 外側の余白 */
     border-radius:  5px;        /* 角丸指定 */
+}
+
+.flex_test-item:nth-child(1) {
+    background-color:  rgba(226, 225, 221, 0.797); /* 背景色指定 */
+}
+ 
+.flex_test-item:nth-child(2) {
+    background-color:  rgba(226, 225, 221, 0.797); /* 背景色指定 */
 }
